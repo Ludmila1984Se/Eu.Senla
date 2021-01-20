@@ -1,6 +1,7 @@
-package com.company;
+package com.company.Task1;
 
 public class Number {
+
     byte aByte;
     short aShort;
     int anInt;
@@ -26,4 +27,5 @@ public class Number {
     public void setaChar (char aChar) {this.aChar = aChar; }
     public boolean isaBoolean () { return aBoolean; }
     public void setaBoolean (boolean aBoolean) {this.aBoolean = aBoolean; }
+
 }

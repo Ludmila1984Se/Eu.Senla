@@ -1,9 +1,9 @@
-package com.company;
+package com.company.Task1;
 
 public class Main {
 
     public static void main(String[] args) {
-    //    System.out.println("Hello World!");
+
         Number number = new Number ();
         number.setaByte((byte) 127);
         System.out.println("Byte: "+ number.getaByte());
@@ -21,7 +21,6 @@ public class Main {
         System.out.println("Char: "+ number.getaShort());
         number.setaBoolean(true);
         System.out.println("Boolean: "+ number.isaBoolean());
-
 
     }
 }
